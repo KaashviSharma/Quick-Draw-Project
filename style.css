@@ -2,3 +2,36 @@ body
 {
     background-color: blanchedalmond;
 }
+
+#score
+{
+    float: left;
+    font-size: 20px;
+    color: crimson;
+}
+
+#timer
+{
+    float: right;
+    font-size: 20px;
+    color: crimson;
+}
+
+#sketch_name
+{
+    color: red;
+    font-size: 25px;
+}
+
+h1
+{
+    font-family: fantasy;
+    color: royalblue;
+    background-color: antiquewhite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 30px darkolivegreen;}
+    to{box-shadow: 1px 1px 30px lightcoral;}
+}
