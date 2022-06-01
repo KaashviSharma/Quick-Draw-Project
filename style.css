@@ -10,7 +10,7 @@ body
     color: crimson;
 }
 
-#timer
+#time
 {
     float: right;
     font-size: 20px;
@@ -34,4 +34,15 @@ h1
 {
     from{box-shadow: 1px 1px 30px darkolivegreen;}
     to{box-shadow: 1px 1px 30px lightcoral;}
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px grey;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
